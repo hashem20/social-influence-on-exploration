@@ -12,8 +12,7 @@ function saveFigurePdf(figHandle, savename, flag, res)
 %
 % NOTE : Setting flag = 1 can help deal with blurry rendering of pdfs on mac
 
-% Robert Wilson
-% 18-Mar-2010
+
 
 if exist('flag') ~= 1
     flag = 0;
