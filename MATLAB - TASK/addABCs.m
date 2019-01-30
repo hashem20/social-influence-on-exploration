@@ -16,9 +16,6 @@ function tb = addABCs(ax, offset, fontsize, abcString)
 % Output
 %   tb        -  vector of handles to textboxes containing ABCs
 
-% Robert Wilson
-% rcw2@princeton.edu
-% 10-Nov-2011
 
 if exist('abcString')~= 1
     abcString = ['ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
