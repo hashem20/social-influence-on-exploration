@@ -6,8 +6,6 @@ function [var, T, N] = counterBalancer(var, R)
 %             = 2 - random counterbalance
 %             = 3 - fully random (not implemented yet)
 % NOTE : THIS DOES NOT YET HANDLE MULTIDIMENSIONAL VARIABLES
-% Robert Wilson
-% 15-Aug-2011
 % get type 1 variables to fully counterbalance over
 ind1 = find([var.type] == 1);
 for i = 1:length(ind1)
